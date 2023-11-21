@@ -18,24 +18,30 @@ const Footer: React.FC<FooterProps> = () => {
           </ST.About>
           <ST.Menu>
             <Text type={TextEnum.enum_Text_H4} children="Меню" />
-            <Text type={TextEnum.enum_Text_H3} children="Расчёт стоимости" />
-            <Text type={TextEnum.enum_Text_H3} children="Услуги" />
-            <Text type={TextEnum.enum_Text_H3} children="Виджеты" />
-            <Text type={TextEnum.enum_Text_H3} children="Интеграции" />
-            <Text type={TextEnum.enum_Text_H3} children="Наши клиенты" />
+            <ST.MenuContainer>
+              <ST.MenuBlock>
+                <Text type={TextEnum.enum_Text_H3} children="Расчёт стоимости" />
+                <Text type={TextEnum.enum_Text_H3} children="Услуги" />
+                <Text type={TextEnum.enum_Text_H3} children="Виджеты" />
+                <Text type={TextEnum.enum_Text_H3} children="Интеграции" />
+                <Text type={TextEnum.enum_Text_H3} children="Наши клиенты" />
+              </ST.MenuBlock>
+              <ST.MenuBlock>
+                <Text type={TextEnum.enum_Text_H3} children="Кейсы" />
+                <Text type={TextEnum.enum_Text_H3} children="Благодарственные письма" />
+                <Text type={TextEnum.enum_Text_H3} children="Сертификаты" />
+                <Text type={TextEnum.enum_Text_H3} children="Блог на Youtube" />
+                <Text type={TextEnum.enum_Text_H3} children="Вопрос / Ответ" />
+              </ST.MenuBlock>
+            </ST.MenuContainer>
           </ST.Menu>
-          <>
-            <Text type={TextEnum.enum_Text_H3} children="Кейсы" />
-            <Text type={TextEnum.enum_Text_H3} children="Благодарственные письма" />
-            <Text type={TextEnum.enum_Text_H3} children="Сертификаты" />
-            <Text type={TextEnum.enum_Text_H3} children="Блог на Youtube" />
-            <Text type={TextEnum.enum_Text_H3} children="Вопрос / Ответ" />
-          </>
 
           <ST.Contacts>
             <Text type={TextEnum.enum_Text_H4} children="Контакты" />
             <Text type={TextEnum.enum_Text_H3} children="+7 555 555-55-55" />
-            <Contacts />
+            <ST.ContactsBlock>
+              <Contacts />
+            </ST.ContactsBlock>
             <Text
               type={TextEnum.enum_Text_H4}
               children="Москва, Путевой проезд 3с1, к 902"
