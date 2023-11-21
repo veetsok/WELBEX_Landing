@@ -12,8 +12,11 @@ const Logo: React.FC = () => {
   return (
     <Link to="/">
       <ST.Logo>
-        <Image type={ImageEnum.enum_defaultSvg} icon={<LogoSvg />} />
-        <Image type={ImageEnum.enum_defaultSvg} icon={<Welbex />} />
+        <ST.Image>
+          <Image type={ImageEnum.enum_defaultSvg} icon={<LogoSvg />} />
+          <Image type={ImageEnum.enum_defaultSvg} icon={<Welbex />} />
+        </ST.Image>
+
         <Text
           type={TextEnum.enum_Text_H6}
           children="крупный интегратор CRM в Росcии и ещё 8 странах"
