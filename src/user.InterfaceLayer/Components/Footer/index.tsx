@@ -38,7 +38,7 @@ const Footer: React.FC<FooterProps> = () => {
 
           <ST.Contacts>
             <Text type={TextEnum.enum_Text_H4} children="Контакты" />
-            <Text type={TextEnum.enum_Text_H3} children="+7 555 555-55-55" />
+            <Text type={TextEnum.enum_Text_H3} children={`+7\u00a0555\u00a0555-55-55`} />
             <ST.ContactsBlock>
               <Contacts />
             </ST.ContactsBlock>

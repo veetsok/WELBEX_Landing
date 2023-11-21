@@ -19,7 +19,7 @@ const Logo: React.FC = () => {
 
         <Text
           type={TextEnum.enum_Text_H6}
-          children="крупный интегратор CRM в Росcии и ещё 8 странах"
+          children={`крупный интегратор CRM в\u00a0России и\u00a0ещё\u00a08\u00a0странах`}
         />
       </ST.Logo>
     </Link>

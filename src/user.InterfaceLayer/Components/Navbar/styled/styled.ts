@@ -8,7 +8,7 @@ export const Navbar = styled.div`
 export const ResetContainer = styled.div`
   display: flex;
   margin: 0 30px;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 `;
 

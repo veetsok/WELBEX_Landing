@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
           <Text type={TextEnum.enum_Text_H3} children="Сертификаты" />
         </ST.MenuImportant>
         <ST.Contacts>
-          <Text type={TextEnum.enum_Text_H3} children="+7 555 555-55-55" />
+          <Text type={TextEnum.enum_Text_H3} children={`+7\u00a0555\u00a0555-55-55`} />
           <Contacts />
         </ST.Contacts>
       </ST.ResetContainer>

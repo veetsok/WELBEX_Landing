@@ -9,6 +9,7 @@ export const Logo = styled.div`
   }
   & h6 {
     margin-top: 10px;
+    max-width: 140px;
   }
 `;
 
