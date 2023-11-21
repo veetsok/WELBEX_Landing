@@ -36,8 +36,62 @@ export const Welbex = styled.div`
   }
 `;
 
-export const SubTitleContainer = styled.div``;
+export const SubTitleContainer = styled.div`
+  max-width: 290px;
+  text-align: right;
+`;
 
-export const SubTitleBlock = styled.div``;
+export const Span1 = styled.span`
+  background: var(--gradient, linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%));
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+`;
+export const Span = styled.span`
+  background: var(--gradient, linear-gradient(67deg, #fcb045 0%, #fd1d1d 360%));
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+`;
 
-export const MiniBlock = styled.div``;
+export const SubTextGradient = styled.div`
+  margin-bottom: 40px;
+`;
+
+export const SubTitleBlock = styled.div`
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+`;
+
+export const MiniBlock = styled.div`
+  display: flex;
+  flex-direction: column;
+  max-width: 135px;
+  margin-bottom: 30px;
+
+  & h2 {
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+  }
+  & h3 {
+    font-family: "Montserrat-Regular";
+    margin-top: 5px;
+  }
+`;

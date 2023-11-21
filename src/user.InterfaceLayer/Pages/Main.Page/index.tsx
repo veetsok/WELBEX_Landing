@@ -20,26 +20,20 @@ const MainPage: React.FC<MainPageProps> = () => {
           />
         </ST.TitleBlock>
         <ST.SubTitleContainer>
-          <Text
-            type={TextEnum.enum_Text_H2}
-            children={`Вместе с\u00a0бесплатной консультацией мы\u00a0дарим:`}
-          />
+          <ST.SubTextGradient>
+            <Text type={TextEnum.enum_Text_H2}>
+              <Text type={TextEnum.enum_Text_H2}>
+                Вместе с <ST.Span1>бесплатной</ST.Span1> <ST.Span>консультацией</ST.Span>{" "}
+                мы дарим:
+              </Text>
+            </Text>
+          </ST.SubTextGradient>
           <ST.SubTitleBlock>
             <ST.MiniBlock>
-              <Text
-                type={TextEnum.enum_Text_H2}
-                children={`Вместе с\u00a0бесплатной консультацией мы\u00a0дарим:`}
-              />
+              <Text type={TextEnum.enum_Text_H2} children={`Виджеты`} />
               <Text
                 type={TextEnum.enum_Text_H3}
                 children={`30\u00a0готовых\u2028решений`}
-              />
-            </ST.MiniBlock>
-            <ST.MiniBlock>
-              <Text type={TextEnum.enum_Text_H2} children={`Skype Аудит`} />
-              <Text
-                type={TextEnum.enum_Text_H3}
-                children={`отдела продаж\u2028и\u00a0CRM системы`}
               />
             </ST.MiniBlock>
             <ST.MiniBlock>
@@ -47,6 +41,15 @@ const MainPage: React.FC<MainPageProps> = () => {
               <Text
                 type={TextEnum.enum_Text_H3}
                 children={`с\u00a0показателями вашего бизнеса`}
+              />
+            </ST.MiniBlock>
+          </ST.SubTitleBlock>
+          <ST.SubTitleBlock>
+            <ST.MiniBlock>
+              <Text type={TextEnum.enum_Text_H2} children={`Skype Аудит`} />
+              <Text
+                type={TextEnum.enum_Text_H3}
+                children={`отдела продаж\u2028и\u00a0CRM системы`}
               />
             </ST.MiniBlock>
             <ST.MiniBlock>
