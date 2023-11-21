@@ -2,6 +2,8 @@ import React from "react";
 import * as ST from "./style";
 import Text from "../../UI_KIT/Atom/Text.atom";
 import TextEnum from "../../UI_KIT/Atom/Text.atom/enum";
+import Button from "../../UI_KIT/Atom/Button.atom";
+import ButtonEnum from "../../UI_KIT/Atom/Button.atom/enum";
 
 interface MainPageProps {}
 
@@ -57,6 +59,7 @@ const MainPage: React.FC<MainPageProps> = () => {
               <Text type={TextEnum.enum_Text_H3} children={`использования\u2028CRM`} />
             </ST.MiniBlock>
           </ST.SubTitleBlock>
+          <Button type={ButtonEnum.enum_defaultButton} children="Получить консультацию" />
         </ST.SubTitleContainer>
       </ST.ResetContainer>
     </ST.Container>

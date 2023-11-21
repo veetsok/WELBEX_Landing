@@ -4,6 +4,7 @@ enum Colors {
   DEFAULT = "#E4E5EA",
   GRAY = "#656566",
   TRANSPARENT = "transparent",
+  BLUE = "#4077f3",
 }
 
 export default Colors;

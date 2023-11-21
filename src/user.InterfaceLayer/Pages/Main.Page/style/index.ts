@@ -39,6 +39,9 @@ export const Welbex = styled.div`
 export const SubTitleContainer = styled.div`
   max-width: 290px;
   text-align: right;
+  & button {
+    margin-top: 60px;
+  }
 `;
 
 export const Span1 = styled.span`
