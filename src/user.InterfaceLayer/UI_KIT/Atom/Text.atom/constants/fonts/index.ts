@@ -2,19 +2,19 @@ import TextEnum from "../../enum";
 
 const commonTextFonts = {
   [TextEnum.enum_Text_H1]: {
-    fontSize: "60px",
-    fontStyle: "normal",
-    fontWeight: 400,
-    lineHeight: "110%",
-  },
-  [TextEnum.enum_Text_H2]: {
     fontSize: "48px",
     fontStyle: "normal",
     fontWeight: 400,
     lineHeight: "110%",
   },
-  [TextEnum.enum_Text_H3]: {
+  [TextEnum.enum_Text_H2]: {
     fontSize: "18px",
+    fontStyle: "normal",
+    fontWeight: 400,
+    lineHeight: "110%",
+  },
+  [TextEnum.enum_Text_H3]: {
+    fontSize: "16px",
     fontStyle: "normal",
     fontWeight: 400,
     lineHeight: "110%",

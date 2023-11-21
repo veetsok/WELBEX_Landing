@@ -17,3 +17,6 @@ export const Logo = styled.div`
   display: flex;
   align-items: center;
 `;
+
+export const MenuImportant = styled.div``;
+export const Contacts = styled.div``;
