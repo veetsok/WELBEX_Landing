@@ -15,6 +15,5 @@ export const MainContent = styled.div`
 `;
 
 export const FooterContainer = styled.div`
-  padding: 1.5625em 0;
-  background: transparent;
+  padding: 55px 0 20px 0;
 `;
