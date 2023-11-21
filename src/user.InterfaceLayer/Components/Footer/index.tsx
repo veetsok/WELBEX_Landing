@@ -43,7 +43,7 @@ const Footer: React.FC<FooterProps> = () => {
               <Contacts />
             </ST.ContactsBlock>
             <Text
-              type={TextEnum.enum_Text_H4}
+              type={TextEnum.enum_Text_H3}
               children="Москва, Путевой проезд 3с1, к 902"
             />
           </ST.Contacts>

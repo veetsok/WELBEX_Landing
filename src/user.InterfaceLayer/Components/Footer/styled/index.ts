@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Colors from "../../../constants/colors";
 
 export const Footer = styled.div`
   max-width: 1200px;
@@ -14,6 +15,9 @@ export const FooterBlock = styled.div`
   justify-content: space-between;
   & h4 {
     margin-bottom: 20px;
+    color: ${Colors.GRAY};
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
   }
   & h3 {
     margin-bottom: 10px;
