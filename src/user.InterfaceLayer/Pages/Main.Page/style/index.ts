@@ -1,83 +1,43 @@
 import styled from "styled-components";
 
-export const ResetContainer = styled.div`
-  margin: 0 10px;
-`;
-
 export const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 42px 0;
-
-  @media (max-width: 769px) {
-    padding: 30px 0;
-    & h2 {
-      text-align: center;
-    }
-  }
-  @media (max-width: 426px) {
-    padding: 20px 0;
-  }
-
-  & h2 {
-    margin-bottom: 40px;
-    @media (max-width: 769px) {
-      margin-bottom: 30px;
-    }
-    @media (max-width: 426px) {
-      margin-bottom: 20px;
-    }
-  }
+  padding: 90px 0 68px 0;
 `;
 
-export const ProjectContainer = styled.div`
-  display: -ms-flexbox;
+export const ResetContainer = styled.div`
+  margin: 0 30px;
   display: flex;
-  -ms-flex-wrap: wrap;
-  transition: transform 0.5s ease; /* Добавленный стиль для плавного перехода */
-  flex-wrap: wrap;
-  width: calc(100% - -20px);
-  @media (max-width: 1030px) {
-    justify-content: space-evenly;
-    width: 100%;
+  justify-content: space-between;
+  align-items: self-start;
+`;
+
+export const TitleBlock = styled.div`
+  max-width: 362px;
+  & h1,
+  h2 {
+    text-align: left;
   }
-
-  @media (max-width: 740px) {
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
-
-    @media (max-width: 626px) {
-      margin-bottom: 20px;
-    }
-
-    &::-webkit-scrollbar {
-      display: none; /* Скрыть полосу прокрутки на устройствах с поддержкой тач-скринов */
-    }
-
-    & > * {
-      flex: 0 0 90%;
-      margin: 10px; /* Расстояние между слайдами */
-      scroll-snap-align: start;
-      @media (max-width: 626px) {
-        flex: 0 0 89%;
-      }      
+  & h2 {
+    margin-top: 30px;
+    max-width: 275px;
   }
 `;
 
-export const AddProjectContainer = styled.div`
+export const Welbex = styled.div`
   display: contents;
-  @media (max-width: 1081px) {
-    display: none;
+  & h1 {
+    background-image: linear-gradient(90deg, #fcb045, #ff3f78);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 900;
   }
 `;
 
-export const AddProject = styled.div`
-  display: none;
-  @media (max-width: 1081px) {
-    display: contents;
-  }
-`;
+export const SubTitleContainer = styled.div``;
+
+export const SubTitleBlock = styled.div``;
+
+export const MiniBlock = styled.div``;

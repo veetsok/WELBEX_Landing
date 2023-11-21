@@ -30,6 +30,22 @@
      url("../fonts/Inter-Black.ttf") format("truetype");
  }
 
+ @font-face {
+    font-family: "Montserrat-Light", sans-serif;
+    src: url("../fonts/Montserrat-Light.woff") format("woff"),
+     url('../fonts/Montserrat-Light.woff2') format('woff2'),
+     url("../fonts/Montserrat-Light.eot") format('embeddewd-opentype'),
+     url("../fonts/Montserrat-Light.ttf") format("truetype");
+ }
+
+@font-face {
+    font-family: "Montserrat-Regular", sans-serif;
+    src: url("../fonts/Montserrat-Regular.woff") format("woff"),
+     url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+     url("../fonts/Montserrat-Regular.eot") format('embeddewd-opentype'),
+     url("../fonts/Montserrat-Regular.ttf") format("truetype");
+ }
+
 /* @font-face {
     font-family: 'Raleway';
     src: url('../fonts/Raleway-Thin.eot');
