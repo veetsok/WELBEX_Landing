@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const NavContainer = styled.div`
-  padding: 1.5625em 0;
-  background: transparent;
-  border-bottom: 1px solid #bcbdbd;
+  padding-top: 46px;
 `;
 
 export const PageContainer = styled.div`

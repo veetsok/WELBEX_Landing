@@ -1,17 +1,8 @@
 enum Colors {
+  BODY = "#0E1014",
   RED = "#EC2020",
-  DEFAULT = "#202020",
-  BODY = "#ECEEEE",
+  DEFAULT = "#E4E5EA",
   TRANSPARENT = "transparent",
-  BLACK = "#000",
-  WHITE = "#FFF",
-  ORANGE = "#FB8B13",
-  GRAY = "#707070",
-  BG_WIDGET = "#F9F9F9",
-  BG_WIDGETHOVER = "rgba(60, 69, 69, 0.15)",
-  BORDER = "#dbdbdb",
-  YELLOW = "#e6a603",
-  GREEN = "#29B347",
 }
 
 export default Colors;
