@@ -1,10 +1,11 @@
 enum Colors {
   BODY = "#0E1014",
-  RED = "#EC2020",
+  RED = "#961a1a",
   DEFAULT = "#E4E5EA",
   GRAY = "#656566",
   TRANSPARENT = "transparent",
   BLUE = "#4077f3",
+  PURPLE = "#833ab4",
 }
 
 export default Colors;

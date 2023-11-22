@@ -8,6 +8,9 @@ export const Footer = styled.div`
 
 export const ResetContainer = styled.div`
   margin: 0 30px;
+  @media (max-width: 321px) {
+    margin: 0 15px;
+  }
 `;
 
 export const FooterBlock = styled.div`
@@ -22,6 +25,13 @@ export const FooterBlock = styled.div`
   & h3 {
     margin-bottom: 10px;
   }
+  @media (max-width: 321px) {
+    flex-direction: column;
+    text-align: left;
+    & h4 {
+      margin-top: 30px;
+    }
+  }
 `;
 
 export const About = styled.div``;
@@ -31,6 +41,9 @@ export const Menu = styled.div``;
 export const MenuContainer = styled.div`
   margin-right: -50px;
   display: flex;
+  @media (max-width: 321px) {
+    margin-right: 0;
+  }
 `;
 
 export const MenuBlock = styled.div`
@@ -41,10 +54,16 @@ export const MenuBlock = styled.div`
 
 export const Contacts = styled.div`
   text-align: right;
+  @media (max-width: 321px) {
+    text-align: left;
+  }
 `;
 
 export const ContactsBlock = styled.div`
   margin: 20px 0;
+  @media (max-width: 321px) {
+    margin: 8px 0 10px 0;
+  }
 `;
 
 export const SubFooter = styled.div`
@@ -55,5 +74,12 @@ export const SubFooter = styled.div`
   }
   & h5:last-child {
     text-decoration-line: underline;
+  }
+  @media (max-width: 321px) {
+    margin-top: 50px;
+    & h5 {
+      text-align: left;
+      margin-top: 5px;
+    }
   }
 `;

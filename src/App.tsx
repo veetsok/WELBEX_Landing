@@ -14,6 +14,8 @@ const App: React.FC = () => {
         <Navbar />
       </ST.NavContainer>
       <ST.MainContent>
+        <ST.PurpleLightMobile></ST.PurpleLightMobile>
+        <ST.RedLightMobile></ST.RedLightMobile>
         <ST.BallsContainer>
           <Balls />
         </ST.BallsContainer>
