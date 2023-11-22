@@ -23,6 +23,11 @@ export const TitleBlock = styled.div`
     margin-top: 30px;
     max-width: 275px;
   }
+  @media (max-width: 321px) {
+    & h1 {
+      font-size: 36px;
+    }
+  }
 `;
 
 export const Welbex = styled.div`
@@ -41,6 +46,11 @@ export const SubTitleContainer = styled.div`
   text-align: right;
   & button {
     margin-top: 60px;
+  }
+  @media (max-width: 321px) {
+    & button {
+      display: none;
+    }
   }
 `;
 

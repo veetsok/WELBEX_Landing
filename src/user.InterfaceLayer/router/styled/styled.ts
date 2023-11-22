@@ -1,7 +1,12 @@
 import styled from "styled-components";
+import Colors from "../../constants/colors";
 
 export const NavContainer = styled.div`
   padding-top: 46px;
+  @media (max-width: 321px) {
+    padding: 20px 0;
+    background: ${Colors.BODY};
+  }
 `;
 
 export const PageContainer = styled.div`

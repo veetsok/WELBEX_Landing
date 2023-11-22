@@ -20,6 +20,11 @@ export const MenuImportant = styled.div`
     margin: 0 15px;
     cursor: pointer;
   }
+  @media (max-width: 321px) {
+    & h3:last-child {
+      display: none;
+    }
+  }
 `;
 export const Contacts = styled.div`
   display: flex;
