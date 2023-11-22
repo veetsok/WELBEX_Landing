@@ -12,11 +12,6 @@ export const ResetContainer = styled.div`
   justify-content: space-between;
 `;
 
-export const Logo = styled.div`
-  display: flex;
-  align-items: center;
-`;
-
 export const MenuImportant = styled.div`
   display: flex;
   align-items: center;
@@ -34,5 +29,8 @@ export const Contacts = styled.div`
   }
   & div {
     cursor: pointer;
+  }
+  @media (max-width: 321px) {
+    display: none;
   }
 `;

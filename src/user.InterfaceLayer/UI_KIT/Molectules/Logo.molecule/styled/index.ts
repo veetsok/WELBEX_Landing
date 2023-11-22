@@ -11,6 +11,9 @@ export const Logo = styled.div`
     margin-top: 10px;
     max-width: 140px;
   }
+  @media (max-width: 321px) {
+    display: none;
+  }
 `;
 
 export const Image = styled.div`
