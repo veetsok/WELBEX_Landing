@@ -4,6 +4,9 @@ export const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   padding: 90px 0 68px 0;
+  @media (max-width: 321px) {
+    padding: 40px 0 60px 0;
+  }
 `;
 
 export const ResetContainer = styled.div`
@@ -11,6 +14,10 @@ export const ResetContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: self-start;
+  @media (max-width: 321px) {
+    margin: 0 15px;
+    flex-direction: column;
+  }
 `;
 
 export const TitleBlock = styled.div`
@@ -48,6 +55,8 @@ export const SubTitleContainer = styled.div`
     margin-top: 60px;
   }
   @media (max-width: 321px) {
+    text-align: left;
+
     & button {
       display: none;
     }
@@ -85,12 +94,19 @@ export const Span = styled.span`
 
 export const SubTextGradient = styled.div`
   margin-bottom: 40px;
+  @media (max-width: 321px) {
+    margin: 45px 0 6px 0;
+  }
 `;
 
 export const SubTitleBlock = styled.div`
   display: flex;
   text-align: right;
   justify-content: space-between;
+  @media (max-width: 321px) {
+    justify-content: normal;
+    text-align: left;
+  }
 `;
 
 export const MiniBlock = styled.div`
@@ -98,7 +114,6 @@ export const MiniBlock = styled.div`
   flex-direction: column;
   max-width: 135px;
   margin-bottom: 30px;
-
   & h2 {
     letter-spacing: 0.9px;
     text-transform: uppercase;
@@ -106,5 +121,15 @@ export const MiniBlock = styled.div`
   & h3 {
     font-family: "Montserrat-Regular";
     margin-top: 5px;
+  }
+  @media (max-width: 321px) {
+    margin-bottom: 0px;
+    & h3 {
+      display: none;
+    }
+    & h2 {
+      font-size: 13px;
+      margin: 14px 10px 0 0;
+    }
   }
 `;

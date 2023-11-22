@@ -24,10 +24,8 @@ const MainPage: React.FC<MainPageProps> = () => {
         <ST.SubTitleContainer>
           <ST.SubTextGradient>
             <Text type={TextEnum.enum_Text_H2}>
-              <Text type={TextEnum.enum_Text_H2}>
-                Вместе с <ST.Span1>бесплатной</ST.Span1> <ST.Span>консультацией</ST.Span>{" "}
-                мы дарим:
-              </Text>
+              Вместе с <ST.Span1>бесплатной</ST.Span1> <ST.Span>консультацией</ST.Span> мы
+              дарим:
             </Text>
           </ST.SubTextGradient>
           <ST.SubTitleBlock>
