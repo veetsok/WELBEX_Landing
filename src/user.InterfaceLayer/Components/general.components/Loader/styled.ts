@@ -8,8 +8,8 @@ const spin = keyframes`
 `;
 
 export const Spinner = styled.div`
-  border: 4px solid ${Colors.BG_WIDGETHOVER};
-  border-left: 4px solid ${Colors.ORANGE};
+  border: 4px solid ${Colors.GRAY};
+  border-left: 4px solid ${Colors.BLUE};
   border-radius: 50%;
   width: 40px;
   height: 40px;
