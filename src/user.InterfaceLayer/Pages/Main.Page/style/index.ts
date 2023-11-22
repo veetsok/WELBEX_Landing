@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import FontsEnum from "../../../constants/fonts";
 
 export const Container = styled.div`
   max-width: 1200px;
@@ -69,7 +70,6 @@ export const Span1 = styled.span`
   color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -83,7 +83,6 @@ export const Span = styled.span`
   color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -119,7 +118,7 @@ export const MiniBlock = styled.div`
     text-transform: uppercase;
   }
   & h3 {
-    font-family: "Montserrat-Regular";
+    font-family: ${FontsEnum.MontserratRegular};
     margin-top: 5px;
   }
   @media (max-width: 321px) {
