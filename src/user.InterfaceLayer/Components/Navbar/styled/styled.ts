@@ -11,7 +11,7 @@ export const ResetContainer = styled.div`
   align-items: flex-start;
   justify-content: space-between;
   @media (max-width: 321px) {
-    margin: 0;
+    margin: 0 7px;
   }
 `;
 

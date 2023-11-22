@@ -29,6 +29,26 @@ const MainPage: React.FC<MainPageProps> = () => {
             </Text>
           </ST.SubTextGradient>
           <ST.SubTitleBlock>
+            <ST.TitleMobile>
+              <ST.TitleMobileBlock>
+                <ST.Line></ST.Line>
+                <Text type={TextEnum.enum_Text_H2} children={`Skype аудит`} />
+              </ST.TitleMobileBlock>
+              <ST.TitleMobileBlock>
+                <ST.Line></ST.Line>
+                <Text type={TextEnum.enum_Text_H2} children={`30\u00a0виджетов`} />
+              </ST.TitleMobileBlock>
+            </ST.TitleMobile>
+            <ST.TitleMobile>
+              <ST.TitleMobileBlock>
+                <ST.Line></ST.Line>
+                <Text type={TextEnum.enum_Text_H2} children={`Dashboard`} />
+              </ST.TitleMobileBlock>
+              <ST.TitleMobileBlock>
+                <ST.Line></ST.Line>
+                <Text type={TextEnum.enum_Text_H2} children={`Месяц\u00a0аmoCRM`} />
+              </ST.TitleMobileBlock>
+            </ST.TitleMobile>
             <ST.MiniBlock>
               <Text type={TextEnum.enum_Text_H2} children={`Виджеты`} />
               <Text

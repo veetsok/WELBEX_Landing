@@ -6,7 +6,7 @@ export const Container = styled.div`
   margin: 0 auto;
   padding: 90px 0 68px 0;
   @media (max-width: 321px) {
-    padding: 40px 0 60px 0;
+    padding: 40px 0 55px 0;
   }
 `;
 
@@ -76,6 +76,9 @@ export const Span1 = styled.span`
   line-height: normal;
   letter-spacing: 0.9px;
   text-transform: uppercase;
+  @media (max-width: 321px) {
+    text-transform: lowercase;
+  }
 `;
 export const Span = styled.span`
   background: var(--gradient, linear-gradient(67deg, #fcb045 0%, #fd1d1d 360%));
@@ -89,6 +92,9 @@ export const Span = styled.span`
   line-height: normal;
   letter-spacing: 0.9px;
   text-transform: uppercase;
+  @media (max-width: 321px) {
+    text-transform: lowercase;
+  }
 `;
 
 export const SubTextGradient = styled.div`
@@ -105,6 +111,7 @@ export const SubTitleBlock = styled.div`
   @media (max-width: 321px) {
     justify-content: normal;
     text-align: left;
+    display: contents;
   }
 `;
 
@@ -122,13 +129,33 @@ export const MiniBlock = styled.div`
     margin-top: 5px;
   }
   @media (max-width: 321px) {
-    margin-bottom: 0px;
-    & h3 {
-      display: none;
-    }
-    & h2 {
-      font-size: 13px;
-      margin: 14px 10px 0 0;
-    }
+    display: none;
   }
+`;
+
+export const TitleMobile = styled.div`
+  display: none;
+  @media (max-width: 321px) {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+    width: 100%;
+    justify-content: space-between;
+  }
+`;
+
+export const TitleMobileBlock = styled.div`
+  display: flex;
+  width: 50%;
+  align-items: center;
+  & h2 {
+    font-size: 13px;
+  }
+`;
+
+export const Line = styled.div`
+  width: 10px;
+  height: 1px;
+  margin-right: 8px;
+  background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
 `;
